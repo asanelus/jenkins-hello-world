@@ -9,7 +9,7 @@ pipeline {
                   steps {
                       script {
                           
-                          sh 'python3 hello.py' // Pour Python
+                          sh 'python hello.py' // Pour Python
                           
                       }
                   }
