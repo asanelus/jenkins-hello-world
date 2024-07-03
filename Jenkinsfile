@@ -9,7 +9,7 @@ pipeline {
       steps {
         script {
 
-          sh 'python --version'
+          sh 'javac HelloWorld.java && java HelloWorld' // Pour Java
 
         }
       }
