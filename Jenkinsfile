@@ -5,7 +5,7 @@ pipeline {
       steps {
         script {
 
-          sh 'javac HelloWorld.java && java HelloWorld' // Pour Java
+          sh 'python hello.py'
 
         }
       }
